@@ -51,7 +51,7 @@ a
     color: #f9faf8;
 }
   
-.sao h1
+h1
 {
  font-size: 48px;
  font-weight: 900;
@@ -87,7 +87,7 @@ h2
     height: auto;
 }
  
-.heading h1
+.main > h1 
 {
     text-align: center;
     font-size: 36px;
@@ -132,6 +132,52 @@ h2
   .quote-author {
     text-align: right;
     font-weight: bold;
+  }
+
+  .call-to-action.msg
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  h3 
+  {
+    text-align: left;
+    flex: 1;
+    padding: 20px;
+    background-color: #3882f6;
+  }
+
+  h4
+  {
+    text-align: left;
+    flex: 1;
+    padding: 20px;
+    background-color: #3882f6;
+  }
+  
+  button
+  {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    
+  }
+  
+
+  .footer p {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
   }
   
   
